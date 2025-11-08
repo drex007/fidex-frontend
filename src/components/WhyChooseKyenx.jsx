@@ -9,7 +9,7 @@ const WhyChooseKyenx = () => {
                     <p className='lg:w-2/3 capitalize font-african bg-faq-bg-dark  text-white lg:text-[25px] text-[17px] lg:px-0 px-2  rounded-sm min-h-[50px] flex justify-center items-center'>Why Choose Fidex ?</p>
                 </div>
                 <div className='flex-[0.5] flex justify-center lg:my-0 my-8'>
-                    <p className=' font-spacegrotesk lg:text-[20px]'>
+                    <p className=' font-spacegrotesk lg:text-[16px]'>
                         Discover the powerful features that make Fidex the most secure, fast, and convenient platform for exchanging stablecoins and Naira.
                     </p>
                 </div>

@@ -14,7 +14,7 @@ const ReachOutToUs = () => {
                     </div>
                 </div>
                 <div className='hidden lg:flex relative  justify-end'>
-                    <img src={customerSupport} className='absolute max-w-[200px] -mt-[10%] 2xl:-mt-[13%] 3xl:-mt-[11%]' />
+                    <img src={customerSupport} className='absolute max-w-[200px] -mt-[20%] 2xl:-mt-[13%] 3xl:-mt-[11%]' />
                 </div>
 
             </div>

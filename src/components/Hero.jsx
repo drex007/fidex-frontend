@@ -54,7 +54,7 @@ const Hero = () => {
           
             <div className='lg:flex lg:flex-1 lg:justify-between lg:px-16 px-4 w-full'>
                 <div className='lg:flex-[0.6] capitalize font-african lg:mt-20 3xl:mt-40'>
-                    <p className='relative text-faq-bg-dark lg:text-[100px] 2xl:text-[80px] text-[30px] -z-10'>Instantly Swap Stablecoins To Naira</p>
+                    <p className='relative text-faq-bg-dark lg:text-[60px] 2xl:text-[80px] text-[30px] -z-10'>Instantly Swap Stablecoins To Naira</p>
                     <p className='font-spacegrotesk lg:text-[20px] text-[15px] mt-4'>Fast, Secure, and Simple. Deposit USDC or USDT and get credited with Naira at the best rate.</p>
                     <div className='hidden lg:flex flex  mt-4'>
                         <img
