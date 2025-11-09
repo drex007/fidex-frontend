@@ -24,10 +24,10 @@ const FAQ = () => {
     return (
 <motion.div
 
-   variants={fadeIn('left', 0.5)}
+   variants={fadeIn('left', 0.2)}
             initial="hidden"
             whileInView={'show'}
-            viewport={{ once: false, amount: 0.3 }}
+            viewport={{ once: false, amount: 0.1 }}
 >
             <div className='lg:mt-32 lg:px-16 px-4 mt-16 mb-4' id='faq'>
             <div className='lg:flex  lg:justify-between lg:flex-1 grid items-center space-x-2'>
