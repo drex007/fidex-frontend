@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+import fadeIn from '../Variant'
+import { motion } from 'framer-motion'
 
 const FAQ = () => {
     const [currentFaq, setCurrentFaq] = useState(8)
@@ -20,7 +22,14 @@ const FAQ = () => {
     ]
 
     return (
-        <div className='lg:mt-32 lg:px-16 px-4 mt-16 mb-4' id='faq'>
+<motion.div
+
+   variants={fadeIn('left', 0.5)}
+            initial="hidden"
+            whileInView={'show'}
+            viewport={{ once: false, amount: 0.3 }}
+>
+            <div className='lg:mt-32 lg:px-16 px-4 mt-16 mb-4' id='faq'>
             <div className='lg:flex  lg:justify-between lg:flex-1 grid items-center space-x-2'>
                 <div className='lg:flex-[0.4] lg:px-0 px-10'>
                     <p className='px-8 capitalize font-african bg-faq-bg-dark  text-white text-[25px]  rounded-sm min-h-[50px] flex justify-center items-center'>FAQ</p>
@@ -56,6 +65,7 @@ const FAQ = () => {
 
             </div>
         </div>
+</motion.div>
     )
 }
 

@@ -1,9 +1,17 @@
 import React from 'react'
 import { awards, secure, transaction, woman } from '../assets'
+import fadeIn from '../Variant'
+import { motion } from 'framer-motion'
 
 const WhyChooseKyenx = () => {
     return (
-        <div className='lg:mt-48 lg:px-16 px-4 lg:my-16 my-8 mt' id='benefits'>
+     <motion.div
+         variants={fadeIn('up', 0.5)}
+            initial="hidden"
+            whileInView={'show'}
+            viewport={{ once: false, amount: 0.1 }}
+     >
+           <div className='lg:mt-48 lg:px-16 px-4 lg:my-16 my-8 mt' id='benefits'>
             <div className='lg:my-28 lg:flex  lg:flex-1 lg:justify-between'>
                 <div className='flex-[0.5] lg:px-0 px-4'>
                     <p className='lg:w-2/3 capitalize font-african bg-faq-bg-dark  text-white lg:text-[25px] text-[17px] lg:px-0 px-2  rounded-sm min-h-[50px] flex justify-center items-center'>Why Choose Fidex ?</p>
@@ -78,6 +86,7 @@ const WhyChooseKyenx = () => {
 
 
         </div>
+     </motion.div>
     )
 }
 
