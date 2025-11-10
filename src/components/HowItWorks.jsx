@@ -9,7 +9,7 @@ const HowItWorks = () => {
                     <p className='lg:w-2/3 capitalize font-african bg-faq-bg-dark  text-white lg:text-[25px] lg:px-0 px-2 text-[20px] rounded-sm min-h-[50px] flex justify-center items-center'>How it Works?</p>
                 </div>
                 <div className='flex-[0.5] flex justify-center lg:mt-0 mt-8'>
-                    <p className=' font-spacegrotesk flex justify-center w-full lg:w-5/6 lg:text-[15px] text-[15px]'>
+                    <p className=' font-spacegrotesk flex justify-center w-full lg:w-5/6 lg:text-[15px] text-[12px]'>
                         With Fidex, Naira off ramp is simple and straightforward. Follow these steps to complete your transactions with ease.
                     </p>
                 </div>
