@@ -52,12 +52,12 @@ const Hero = () => {
     return (
         <div id='swap' className=''>
           
-            <div className='lg:flex lg:flex-1 lg:justify-between lg:px-16 px-4 w-full'>
+            <div className='overflow-x-hidden lg:flex lg:flex-1 lg:justify-between lg:px-16 px-4 w-full'>
             <motion.div
               variants={fadeIn('right', 0.2)}
             initial="hidden"
             whileInView={'show'}
-            viewport={{ once: false, amount: 0.3 }}
+            viewport={{ once: true, amount: 0.1 }}
             
             >
                       <div className='lg:flex-[0.6] capitalize font-african lg:mt-20 3xl:mt-40'>
@@ -74,7 +74,7 @@ const Hero = () => {
             variants={fadeIn('left', 0.4)}
             initial="hidden"
             whileInView={'show'}
-            viewport={{ once: false, amount: 0.3 }}>
+            viewport={{ once: true, amount: 0.3 }}>
                    <div className='lg:flex-[0.4] lg:my-0 mt-8 '>
                     <img src={iosMockup} alt="" srcset="" className='lg:flex lg:mx-auto'  />
                      <div className='flex lg:hidden justify-center'>

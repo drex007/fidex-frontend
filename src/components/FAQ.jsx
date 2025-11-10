@@ -22,7 +22,8 @@ const FAQ = () => {
     ]
 
     return (
-<motion.div
+<div className='overflow-x-hidden'>
+    <motion.div
 
    variants={fadeIn('left', 0.2)}
             initial="hidden"
@@ -35,7 +36,7 @@ const FAQ = () => {
                     <p className='px-8 capitalize font-african bg-faq-bg-dark  text-white text-[25px]  rounded-sm min-h-[50px] flex justify-center items-center'>FAQ</p>
                 </div>
                 <div className='flex justify-center'>
-                    <p className=' font-spacegrotesk lg:w-4/5 w-full lg:my-0 my-3 flex justify-center'>
+                    <p className='lg:text-[18px] text-[15px] lg:text-left  text-center font-spacegrotesk lg:w-4/5 w-full lg:my-0 my-3 flex justify-center'>
                         Here are some frequent questions we get and answers to them.
                     </p>
                 </div>
@@ -66,6 +67,7 @@ const FAQ = () => {
             </div>
         </div>
 </motion.div>
+</div>
     )
 }
 
