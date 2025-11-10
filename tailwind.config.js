@@ -46,8 +46,8 @@ export default {
         "primary-black-text": "#3D3D3D",
         "modal-bg": "#11111190",
         "faq-bg":"#F3F3F3",
-          // "faq-bg-dark": "#000000"
-        "faq-bg-dark": "#6265b8"
+          "faq-bg-dark": "#000000"
+        // "faq-bg-dark": "#6265b8"
 
 
       },
