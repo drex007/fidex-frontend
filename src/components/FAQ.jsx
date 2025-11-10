@@ -48,8 +48,8 @@ const FAQ = () => {
                 {Faq?.map((e, i) => <div className={`${currentFaq === i ? 'bg-faq-bg-dark' : 'bg-gray-50 my-4 '} ' min-h-[50px]  rounded-3xl p-8  my-8  font-spacegrotesk shadow-md shadow-black transition duration-1000`} onMouseEnter={() => { }} key={i}>
                     <div className='flex justify-between'>
                         <div className='flex space-x-4 items-center'>
-                            <p className={`${currentFaq === i ? 'text-white' : 'text-black'} lg:text-[25px] text-[20px] font-semibold`}>{i + 1}.</p>
-                            <p className={`${currentFaq === i ? 'text-white' : 'text-black'} lg:text-[20px] text-[15px] font-semibold`}>{e?.title}</p>
+                            <p className={`${currentFaq === i ? 'text-white' : 'text-black'} lg:text-[20px] text-[20px]`}>{i + 1}.</p>
+                            <p className={`${currentFaq === i ? 'text-white' : 'text-black'} lg:text-[15px] text-[15px]`}>{e?.title}</p>
                         </div>
                         <div className='cursor-pointer' onClick={() => handleChangeFaq(i)}>
                             <p className='w-[40px] h-[40px] flex justify-center items-center font-semibold text-3xl bg-white rounded-full'>{currentFaq === i ? '+' : '-'}</p>
@@ -58,7 +58,7 @@ const FAQ = () => {
                     </div>
                     {currentFaq === i && <div>
                         <hr className='h-[2px] my-4 bg-white' />
-                        <p className={`${currentFaq === i ? 'text-white' : 'text-black'} lg:text-[20px] text-[12px]`}>{e?.faq}</p>
+                        <p className={`${currentFaq === i ? 'text-white' : 'text-black'} lg:text-[15px] text-[12px]`}>{e?.faq}</p>
 
                     </div>}
                 </div>)}

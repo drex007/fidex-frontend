@@ -46,19 +46,21 @@ export default {
         "primary-black-text": "#3D3D3D",
         "modal-bg": "#11111190",
         "faq-bg":"#F3F3F3",
-          "faq-bg-dark": "#000000"
-        // "faq-bg-dark": "#6265b8"
+        // "faq-bg-dark": "#000000"
+        "faq-bg-dark": "#6265b8"
 
 
       },
       fontFamily: {
         lato: ["Lato", "sans-serif"],
         poppins: ["Poppins", "sans-serif"],
-        spacegrotesk: ["Space Grotesk", "sans-serif"],
+        // spacegrotesk: ["Space Grotesk", "sans-serif"],
+        spacegrotesk: ["Poppins", "sans-serif"],
         Montserrat: ["Montserrat"],
         Orbitron: ["Orbitron"],
         irish: ["Irish Grover"],
-        african: "African"
+        // african: "African"
+        african: "Orbitron"
 
       },
     },

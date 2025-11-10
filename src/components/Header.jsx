@@ -15,14 +15,14 @@ const Header = () => {
         <div className='sticky lg:px-16 px-4 py-6'>
             <div className='flex justify-between'>
 
-                <p className='font-african text-faq-bg-dark text-2xl cursor-pointer' onClick={() => {
+                <p className='font-african lg:text-[20px] text-[17px] text-faq-bg-dark text-2xl cursor-pointer' onClick={() => {
                     dispatch(setUserKycStatusToNull({}))
 
                     setUserModalState(BuyModal)
                 }}> Fidex</p>
 
                 <div>
-                    <div className='hidden lg:flex text-[20px] font-spacegrotesk text-balance font-semibold  space-x-4'>
+                    <div className='hidden lg:flex text-[15px] font-spacegrotesk text-balance  space-x-4'>
                         <div>
                             <Link to="swap"
                                 spy={true}
