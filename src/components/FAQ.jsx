@@ -36,7 +36,7 @@ const FAQ = () => {
                     <p className='px-8 capitalize font-african bg-faq-bg-dark  text-white text-[25px]  rounded-sm min-h-[50px] flex justify-center items-center'>FAQ</p>
                 </div>
                 <div className='flex justify-center'>
-                    <p className='lg:text-[18px] text-[15px] lg:text-left  text-center font-spacegrotesk lg:w-4/5 w-full lg:my-0 my-3 flex justify-center'>
+                    <p className='lg:text-[18px] text-[12px] lg:text-left  text-center font-spacegrotesk lg:w-4/5 w-full lg:my-0 my-3 flex justify-center'>
                         Here are some frequent questions we get and answers to them.
                     </p>
                 </div>
