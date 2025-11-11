@@ -5,7 +5,7 @@ const Footer = () => {
         <div className='lg:px-16 px-4 lg:my-16 my-8 '>
             <div className='bg-faq-bg-dark min-h-[150px] rounded-3xl'>
                 <div className='lg:flex lg:justify-between p-8'>
-                    <p className='text-[20px] font-african text-white flex justify-center'>Fidex</p>
+                    <p className='text-[20px] font-poppins font-semibold text-white flex justify-center'>Fidex</p>
                     <div className='font-spacegrotesk text-balance lg:flex lg:space-x-4'>
                         <div>
                             <p className='cursor-pointer text-white flex justify-center my-2 lg:my-0' >Swap</p>

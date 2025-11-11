@@ -21,7 +21,9 @@ import androidMockup from './android-mockup.png'
 import iosMockup from './ios-mockup.png'
 import iosdownload from './ios-download.png'
 import androidDownload from './android-download.png'
+import xiosMockup from  './xios-mockup.png'
 export {
+    xiosMockup,
     iosdownload,
     androidDownload,
     androidMockup,

@@ -15,21 +15,21 @@ const Header = () => {
         <div className='sticky lg:px-16 px-4 py-6'>
             <div className='flex justify-between'>
 
-                <p className='font-african lg:text-[20px] text-[17px] text-faq-bg-dark text-2xl cursor-pointer' onClick={() => {
+                <p className='font-poppins lg:text-[20px] text-[17px] font-semibold text-faq-bg-dark text-2xl cursor-pointer' onClick={() => {
                     dispatch(setUserKycStatusToNull({}))
 
                     setUserModalState(BuyModal)
                 }}> Fidex</p>
 
                 <div>
-                    <div className='hidden lg:flex text-[15px] font-spacegrotesk text-balance  space-x-4'>
+                    <div className='hidden lg:flex text-[15px] font-poppins text-balance  space-x-4'>
                         <div>
                             <Link to="swap"
                                 spy={true}
                                 smooth={true}
                                 offset={50}
                                 duration={500}><p className='cursor-pointer' onClick={() => setCurrentTab(0)}>Swap</p></Link>
-                            {currentTab === 0 && <hr className='text-black bg-faq-bg-dark h-[2px]' />}
+                            {currentTab === 0 && <hr className='text-black bg-faq-bg-dark h-[4px]' />}
                         </div>
                         <div>
                             <Link
@@ -40,7 +40,7 @@ const Header = () => {
                                 duration={500}
 
                             > <p className='cursor-pointer' onClick={() => setCurrentTab(1)}>Benefits</p></Link>
-                            {currentTab === 1 && <hr className='text-black bg-faq-bg-dark h-[2px]' />}
+                            {currentTab === 1 && <hr className='text-black bg-faq-bg-dark h-[4px]' />}
                         </div>
                         <div>
                             <Link
@@ -51,7 +51,7 @@ const Header = () => {
                                 duration={500}
 
                             ><p className='cursor-pointer' onClick={() => setCurrentTab(2)}>How it Works</p></Link>
-                            {currentTab === 2 && <hr className='text-black bg-faq-bg-dark h-[2px]' />}
+                            {currentTab === 2 && <hr className='text-black bg-faq-bg-dark h-[4px]' />}
                         </div>
                         <div>
                             <Link
@@ -64,7 +64,7 @@ const Header = () => {
 
                             >
                                 <p className='cursor-pointer' onClick={() => setCurrentTab(3)}>FAQ</p></Link>
-                            {currentTab === 3 && <hr className='text-black bg-faq-bg-dark h-[2px]' />}
+                            {currentTab === 3 && <hr className='text-black bg-faq-bg-dark h-[4px]' />}
                         </div>
                     </div>
                 </div>
@@ -85,7 +85,7 @@ const Header = () => {
                             smooth={true}
                             offset={500}
                             duration={500}><p className='cursor-pointer' onClick={() => setCurrentTab(0)}>Swap</p></Link>
-                        {currentTab === 0 && <hr className='text-black bg-faq-bg-dark h-[2px] w-1/5' />}
+                        {currentTab === 0 && <hr className='text-black bg-faq-bg-dark h-[4px] w-1/5' />}
                     </div>
                     <div className='my-4'>
                         <Link

@@ -47,7 +47,7 @@ export default {
         "modal-bg": "#11111190",
         "faq-bg":"#F3F3F3",
         // "faq-bg-dark": "#000000"
-        "faq-bg-dark": "#6265b8"
+        "faq-bg-dark": "#032a89"
 
 
       },
