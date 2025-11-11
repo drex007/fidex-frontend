@@ -33,7 +33,7 @@ const FAQ = () => {
             <div className='lg:mt-32 lg:px-16 px-4 mt-16 mb-4' id='faq'>
             <div className='lg:flex  lg:justify-between lg:flex-1 grid items-center space-x-2'>
                 <div className='lg:flex-[0.6] lg:px-0 px-10'>
-                    <p className='px-8 capitalize font-poppins bg-faq-bg-dark  text-white lg:text-[20px] text-[14px]  rounded-sm min-h-[50px] flex justify-center items-center'>Frequently asked questions</p>
+                    <p className='px-8 capitalize font-poppins bg-faq-bg-dark  text-white lg:text-[20px] text-[12px]  rounded-sm min-h-[50px] flex justify-center items-center'>Frequently asked questions</p>
                 </div>
                 <div className='flex justify-center'>
                     <p className='lg:text-[15px] text-[12px] lg:text-left  text-center font-spacegrotesk lg:w-4/5 w-full lg:my-0 my-3 flex justify-center'>
