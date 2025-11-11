@@ -13,7 +13,7 @@ const LandingPage = () => {
             <Header />
             <Hero />
             <WhyChooseKyenx />
-            <ReachOutToUs />
+            {/* <ReachOutToUs /> */}
             <HowItWorks />
             <FAQ />
             <Footer />
