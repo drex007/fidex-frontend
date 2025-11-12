@@ -42,7 +42,7 @@ const Hero = () => {
           viewport={{ once: false, amount: 0.1 }}
         >
           <div className="lg:flex-[0.6] capitalize font-poppins lg:mt-20 3xl:mt-40">
-            <p className="relative text-faq-bg-dark  lg:text-[70px] 2xl:text-[80px] text-[30px] -z-10 font-semibold">
+            <p className="relative text-faq-bg-dark  lg:text-[70px] 2xl:text-[100px] text-[30px] -z-10 font-semibold">
               Instantly Swap Stablecoins To Naira
             </p>
             <p className="font-poppins lg:text-[15px] text-[12px] mt-4">
@@ -66,14 +66,14 @@ const Hero = () => {
           whileInView={"show"}
           viewport={{ once: false, amount: 0.3 }}
         >
-          <div className="lg:flex-[0.4] lg:-mt-28 -mr-10 mt-8 ">
+          <div className="lg:flex-[0.4] mt-8  ">
             <img
               src={iosMockup}
               alt=""
               srcset=""
               className="lg:flex lg:mx-auto"
             />
-            <div className="flex lg:hidden justify-center mr-10 mt-8">
+            <div className="flex lg:hidden justify-center mt-8">
               <img src={iosdownload} alt="" className="w-[120px] h-[50px]" />
               <img
                 src={androidDownload}

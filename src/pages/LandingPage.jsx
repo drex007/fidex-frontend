@@ -9,7 +9,7 @@ import Footer from '../components/Footer'
 
 const LandingPage = () => {
     return (
-        <div className='4xl:px-[25%]'>
+        <div className='3xl:px-[25%]'>
             <Header />
             <Hero />
             <WhyChooseKyenx />
